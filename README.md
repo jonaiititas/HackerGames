@@ -11,3 +11,5 @@ Created using:
 - Clone this repo
 - `npm install`
 - `npm start` to run local server
+
+Deployed version here: https://vykintazo.gitlab.io/hackergames/
