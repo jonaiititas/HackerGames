@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0674e2a3-986b-4543-8d44-2b80b4143106" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="0674e2a3-986b-4543-8d44-2b80b4143106" name="Default Changelist" comment="Added 3 layers showing shops in Klapeda (data from OSM)&#10;Added layer control panel (not mobile friendly yet)&#10;Some performance bugs">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Vykintas Valužis &lt;vykintazo@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TQEGwvj1gorbthvg7Mrx6d3yCD" />
@@ -31,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,7 +86,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573383826570</updated>
-      <workItem from="1573383827674" duration="4778000" />
+      <workItem from="1573383827674" duration="4936000" />
+      <workItem from="1573405559856" duration="15590000" />
+      <workItem from="1573463584455" duration="623000" />
+      <workItem from="1573469904399" duration="71000" />
+      <workItem from="1573478069168" duration="1199000" />
+      <workItem from="1573481599460" duration="3594000" />
+      <workItem from="1573499946946" duration="3203000" />
+      <workItem from="1573554412081" duration="15976000" />
     </task>
     <servers />
   </component>
@@ -87,7 +105,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -97,5 +117,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Added 3 layers showing shops in Klapeda (data from OSM)&#10;Added layer control panel (not mobile friendly yet)&#10;Some performance bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 3 layers showing shops in Klapeda (data from OSM)&#10;Added layer control panel (not mobile friendly yet)&#10;Some performance bugs" />
   </component>
 </project>
