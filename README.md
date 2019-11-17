@@ -1,6 +1,8 @@
 # Hacker Games project frontend
 Still need name
 
+[Docs'as](https://docs.google.com/document/d/1oi_4rW268DrZudaxxaMyEozlN1jvED5BcIcyekEknLc/edit?usp=sharing)
+
 ## Created using:
 - [ReactJS](https://reactjs.org)
 - [Shards theme](https://designrevision.com/docs/shards-react/getting-started)
