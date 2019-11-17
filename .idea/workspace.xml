@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0674e2a3-986b-4543-8d44-2b80b4143106" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/barai.geojson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafe.geojson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/districts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kultūra.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maitinimas.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/restoranas.geojson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sveikata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transportas.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LayerControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayerControl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavHeader.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +40,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TQEGwvj1gorbthvg7Mrx6d3yCD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
@@ -83,6 +100,11 @@
       <workItem from="1573481599460" duration="3594000" />
       <workItem from="1573499946946" duration="3203000" />
       <workItem from="1573554412081" duration="16315000" />
+      <workItem from="1573574175252" duration="276000" />
+      <workItem from="1573725617388" duration="1799000" />
+      <workItem from="1573815506719" duration="54000" />
+      <workItem from="1573920777717" duration="15893000" />
+      <workItem from="1573979294233" duration="4231000" />
     </task>
     <task id="LOCAL-00001" summary="Added 3 layers showing shops in Klapeda (data from OSM).&#10;Added layer control panel (not mobile friendly yet).&#10;Some performance bugs.&#10;Added coding rules.">
       <created>1573573530730</created>
@@ -91,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573573530730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added unadded files">
+      <created>1573574378411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573574378411</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,11 +140,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Added 3 layers showing shops in Klapeda (data from OSM)&#10;Added layer control panel (not mobile friendly yet)&#10;Some performance bugs" />
     <MESSAGE value="Added 3 layers showing shops in Klapeda (data from OSM).&#10;Added layer control panel (not mobile friendly yet).&#10;Some performance bugs.&#10;Added coding rules." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 3 layers showing shops in Klapeda (data from OSM).&#10;Added layer control panel (not mobile friendly yet).&#10;Some performance bugs.&#10;Added coding rules." />
+    <MESSAGE value="Added unadded files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added unadded files" />
   </component>
 </project>

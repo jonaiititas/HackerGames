@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-11-16T17:58:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3550489356",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "9",
+        "addr:postcode": "92228",
+        "addr:street": "Priestočio g.",
+        "amenity": "nightclub",
+        "name": "Mix Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1391619,
+          55.7202653
+        ]
+      },
+      "id": "node/3550489356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4449250693",
+        "amenity": "nightclub",
+        "name": "Portas",
+        "name:en": "Port",
+        "name:lt": "Portas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1231608,
+          55.7130253
+        ]
+      },
+      "id": "node/4449250693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4722365192",
+        "addr:postcode": "92117",
+        "amenity": "casino",
+        "email": "info@casinoadmiral.lt",
+        "internet_access": "wlan",
+        "name": "Casino Tornado",
+        "opening_hours": "24/7",
+        "phone": "+37065276505",
+        "website": "https://www.casinoadmiral.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1309469,
+          55.7105769
+        ]
+      },
+      "id": "node/4722365192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4817944621",
+        "amenity": "nightclub",
+        "name": "Mr.Bond",
+        "name:en": "Mr.Bond",
+        "name:lt": "Mr.Bond"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1311903,
+          55.7089437
+        ]
+      },
+      "id": "node/4817944621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5118408541",
+        "amenity": "cinema",
+        "name": "Forum cinemas",
+        "website": "http://www.forumcinemas.lt/About/Klaipeda/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1565531,
+          55.6913819
+        ]
+      },
+      "id": "node/5118408541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5354917528",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "6",
+        "addr:postcode": "91234",
+        "addr:street": "Pilies g.",
+        "amenity": "nightclub",
+        "name": "Jazzpilis",
+        "opening_hours": "Th 18:00-01:00; Fr-Sa 18:00-04:00",
+        "smoking": "outside",
+        "website": "http://jazzpilis.lt/renginiai/list/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1347711,
+          55.7041999
+        ]
+      },
+      "id": "node/5354917528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5764017572",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "5A",
+        "addr:street": "Bangų g.",
+        "amenity": "cinema",
+        "name": "ArleKinas",
+        "website": "http://kinasarlekinas.lt/klaipeda/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1412979,
+          55.7077734
+        ]
+      },
+      "id": "node/5764017572"
+    }
+  ]
+}

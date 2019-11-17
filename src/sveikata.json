@@ -1,0 +1,846 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-11-16T17:47:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1168357906",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "28",
+        "addr:street": "Taikos pr.",
+        "amenity": "pharmacy",
+        "name": "Gintarinė vaistinė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1474033,
+          55.6978655
+        ]
+      },
+      "id": "node/1168357906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1168429790",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "115",
+        "addr:street": "Taikos pr.",
+        "amenity": "pharmacy",
+        "name": "Gintarinė vaistinė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1714171,
+          55.671844
+        ]
+      },
+      "id": "node/1168429790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2291068411",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "84",
+        "addr:street": "H. Manto g.",
+        "amenity": "pharmacy",
+        "brand": "Gintarinė vaistinė",
+        "brand:wikidata": "Q15857801",
+        "brand:wikipedia": "lt:Gintarinė vaistinė",
+        "healthcare": "pharmacy",
+        "name": "Gintarinė vaistinė",
+        "website": "https://www.gintarine.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1242473,
+          55.7281708
+        ]
+      },
+      "id": "node/2291068411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2497123259",
+        "amenity": "pharmacy",
+        "name": "Eurovaistinė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1607546,
+          55.7003057
+        ]
+      },
+      "id": "node/2497123259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2883827720",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "19",
+        "addr:street": "Jūreivių g.",
+        "amenity": "clinic",
+        "name": "Salvija. Medicininių tyrimų laboratorija „Antėja“",
+        "opening_hours": "Mo-Fr 8:00-12:00",
+        "phone": "+370 46 216 229",
+        "website": "https://kraujotyrimai.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1652967,
+          55.6756347
+        ]
+      },
+      "id": "node/2883827720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3529031603",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "17",
+        "addr:street": "Vytauto g.",
+        "amenity": "pharmacy",
+        "name": "Salvija"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1315413,
+          55.7122845
+        ]
+      },
+      "id": "node/3529031603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4320513941",
+        "amenity": "dentist",
+        "name": "Danės odontologijos klinika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1340473,
+          55.7112516
+        ]
+      },
+      "id": "node/4320513941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362719396",
+        "amenity": "pharmacy",
+        "name": "Camelia",
+        "name:en": "Camelia",
+        "name:lt": "Camelia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1414122,
+          55.7274181
+        ]
+      },
+      "id": "node/4362719396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362809293",
+        "amenity": "pharmacy",
+        "name": "Sportininkų vaistinė",
+        "opening_hours": "Mo-Fr 08:00-20:00, 09:00-18:00; Sa, Su 10:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.116722,
+          55.7216391
+        ]
+      },
+      "id": "node/4362809293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4373592897",
+        "amenity": "pharmacy",
+        "name": "Camelia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1678819,
+          55.6741773
+        ]
+      },
+      "id": "node/4373592897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4373609864",
+        "amenity": "pharmacy",
+        "name": "Apotheca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1643604,
+          55.6797662
+        ]
+      },
+      "id": "node/4373609864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374047285",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1529824,
+          55.6780059
+        ]
+      },
+      "id": "node/4374047285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374059584",
+        "amenity": "pharmacy",
+        "name": "Euro vaistinė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1552112,
+          55.6784806
+        ]
+      },
+      "id": "node/4374059584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374066651",
+        "amenity": "pharmacy",
+        "name": "Camelia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1565766,
+          55.6786017
+        ]
+      },
+      "id": "node/4374066651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374164285",
+        "amenity": "pharmacy",
+        "name": "Benu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1546079,
+          55.6833925
+        ]
+      },
+      "id": "node/4374164285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374165945",
+        "amenity": "social_facility",
+        "name": "Vaikų globos namai „Rytas“",
+        "social_facility": "group_home",
+        "social_facility:for": "child"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1571291,
+          55.6825033
+        ]
+      },
+      "id": "node/4374165945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4377378902",
+        "amenity": "pharmacy",
+        "name": "Benu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1560652,
+          55.6869706
+        ]
+      },
+      "id": "node/4377378902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378738123",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.154343,
+          55.6846656
+        ]
+      },
+      "id": "node/4378738123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4382911092",
+        "amenity": "dentist",
+        "name": "Maksydentas",
+        "name:lt": "Maksydentas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1263457,
+          55.7311151
+        ]
+      },
+      "id": "node/4382911092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4674651390",
+        "amenity": "dentist",
+        "email": "vdv.obontotologija@gmail.com",
+        "name": "VDV klinika",
+        "name:lt": "VDV klinika",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "+37065215152",
+        "website": "http://vdvklinika.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1329434,
+          55.7157309
+        ]
+      },
+      "id": "node/4674651390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4722365291",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "12A",
+        "addr:street": "Naujoji Uosto g.",
+        "amenity": "clinic",
+        "name": "Lorna",
+        "opening_hours": "Mo-Fr 08:00-20:00",
+        "phone": "+370 46 310 797",
+        "website": "https://lorna.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1234585,
+          55.7140488
+        ]
+      },
+      "id": "node/4722365291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4792821206",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "21",
+        "addr:postcode": "95203",
+        "addr:street": "Vingio g.",
+        "amenity": "veterinary",
+        "name": "Vingio veterinarijos klinika",
+        "website": "http://www.vingiovet.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1954146,
+          55.6687885
+        ]
+      },
+      "id": "node/4792821206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4792821210",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "15B",
+        "addr:postcode": "95146",
+        "addr:street": "Laukininkų g.",
+        "amenity": "pharmacy",
+        "name": "Eurovaistinė",
+        "website": "https://www.eurovaistine.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1929741,
+          55.6646255
+        ]
+      },
+      "id": "node/4792821210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4816102622",
+        "amenity": "pharmacy",
+        "name": "Eurovaistinė",
+        "name:lt": "Eurovaistinė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1269517,
+          55.7319222
+        ]
+      },
+      "id": "node/4816102622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4941864687",
+        "amenity": "pharmacy",
+        "level": "0",
+        "name": "Camelia Vaistine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1315455,
+          55.7143612
+        ]
+      },
+      "id": "node/4941864687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111408725",
+        "amenity": "dentist",
+        "name": "Odontologijos kabinetas",
+        "name:lt": "Odontologijos kabinetas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1793429,
+          55.6663071
+        ]
+      },
+      "id": "node/5111408725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111408726",
+        "amenity": "dentist",
+        "name": "Odontologijos kabinetas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1758727,
+          55.6695703
+        ]
+      },
+      "id": "node/5111408726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5365874492",
+        "amenity": "dentist",
+        "name": "Žavi šypsena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1222672,
+          55.7181974
+        ]
+      },
+      "id": "node/5365874492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5366123544",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Odontologijos kabinetas",
+        "phone": "+370 46 493 332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1413041,
+          55.7148884
+        ]
+      },
+      "id": "node/5366123544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5660957136",
+        "amenity": "veterinary",
+        "name": "Varpų veterinarijos klinika",
+        "opening_hours": "Mo-Fr 09:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1822047,
+          55.6644037
+        ]
+      },
+      "id": "node/5660957136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5661002821",
+        "amenity": "pharmacy",
+        "name": "Camelia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1928547,
+          55.6638207
+        ]
+      },
+      "id": "node/5661002821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5749751867",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Camelia",
+        "opening_hours": "Mo-Fr 08:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1501056,
+          55.6947162
+        ]
+      },
+      "id": "node/5749751867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763981780",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Eurovaistinė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1542678,
+          55.6928562
+        ]
+      },
+      "id": "node/5763981780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5764039178",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "9A",
+        "addr:street": "Kauno g.",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Parko klinika",
+        "website": "http://www.parkoklinika.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1539724,
+          55.6967519
+        ]
+      },
+      "id": "node/5764039178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5764357464",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "35",
+        "addr:street": "Šilutės pl.",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Eurovaistinė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1811462,
+          55.691699
+        ]
+      },
+      "id": "node/5764357464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5764379642",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "141",
+        "addr:street": "Taikos pr.",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Eurovaistinė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1775452,
+          55.6636301
+        ]
+      },
+      "id": "node/5764379642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5764410457",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "66A",
+        "addr:street": "Taikos pr.",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "N vaistinė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1597405,
+          55.6846274
+        ]
+      },
+      "id": "node/5764410457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5781782672",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Camelia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1380484,
+          55.719784
+        ]
+      },
+      "id": "node/5781782672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5786922053",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "13",
+        "addr:street": "Sausio 15-osios g.",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Amberdenta",
+        "website": "http://amberdenta.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1453672,
+          55.7034477
+        ]
+      },
+      "id": "node/5786922053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5786922054",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "13",
+        "addr:street": "Sausio 15-osios g.",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "dermatology",
+        "name": "Dermatologas",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "phone": "+370 686 21000",
+        "website": "http://www.dermatologas.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1458879,
+          55.7035095
+        ]
+      },
+      "id": "node/5786922054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5789802884",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "2A",
+        "addr:street": "Paryžiaus Komunos g.",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Camelia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.149346,
+          55.698676
+        ]
+      },
+      "id": "node/5789802884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5793700403",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Lauradenta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1509283,
+          55.6953329
+        ]
+      },
+      "id": "node/5793700403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5846433644",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "29",
+        "addr:street": "Tiltų g.",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Camelia",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-14:30",
+        "phone": "+370 46 214767",
+        "website": "https://www.camelia.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1386259,
+          55.7071908
+        ]
+      },
+      "id": "node/5846433644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6857700607",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "39",
+        "addr:street": "Dubysos g.",
+        "amenity": "social_facility",
+        "name": "Klaipėdos laikinos nakvynės namai",
+        "social_facility": "shelter",
+        "social_facility:for": "homeless"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1700518,
+          55.6929526
+        ]
+      },
+      "id": "node/6857700607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6860303022",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "8",
+        "addr:street": "Šilutės pl.",
+        "amenity": "social_facility",
+        "name": "Klaipėdos miesto nakvynės namai",
+        "social_facility": "shelter",
+        "social_facility:for": "homeless"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1630546,
+          55.7014059
+        ]
+      },
+      "id": "node/6860303022"
+    }
+  ]
+}

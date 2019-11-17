@@ -22,22 +22,41 @@ export default function LayerControl({layers, handleChange}) {
                 <CardBody>
                     {/*<CardTitle>Lorem Ipsum</CardTitle>*/}
                     <FormCheckbox
-                        checked={layers.geojson}
-                        onChange={e => handleChange(e, "geojson")}
+                        disabled
+                        checked={layers.districts}
+                        onChange={e => handleChange(e, "districts")}
                     >
-                        GeoJSON
+                        Rajonai
                     </FormCheckbox>
                     <FormCheckbox
-                        checked={layers.heatmap}
-                        onChange={e => handleChange(e, "heatmap")}
+                        checked={layers.food}
+                        onChange={e => handleChange(e, "food")}
                     >
-                        Heatmap
+                        Maisto tiekimas
                     </FormCheckbox>
                     <FormCheckbox
-                        checked={layers.hexagon}
-                        onChange={e => handleChange(e, "hexagon")}
+                        checked={layers.transport}
+                        onChange={e => handleChange(e, "transport")}
                     >
-                        Hexagonal Heatmap
+                        Transportas ir infrastruktūra
+                    </FormCheckbox>
+                    <FormCheckbox
+                        checked={layers.culture}
+                        onChange={e => handleChange(e, "culture")}
+                    >
+                        Kultūra
+                    </FormCheckbox>
+                    <FormCheckbox
+                        checked={layers.shops}
+                        onChange={e => handleChange(e, "shops")}
+                    >
+                        Parduotuvės
+                    </FormCheckbox>
+                    <FormCheckbox
+                        checked={layers.health}
+                        onChange={e => handleChange(e, "health")}
+                    >
+                        Sveikata
                     </FormCheckbox>
                 </CardBody>
             </StyledCard>

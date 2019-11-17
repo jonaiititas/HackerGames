@@ -19,6 +19,8 @@ import {
     Collapse
 } from "shards-react";
 
+
+
 export default function NavHeader() {
 
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -65,7 +67,9 @@ export default function NavHeader() {
                 </Nav>
 
                 <Nav navbar className="ml-auto">
+
                     <InputGroup size="sm" seamless>
+
                         <InputGroupAddon type="prepend">
                             <InputGroupText>
                                 <FontAwesomeIcon icon={faSearch}/>
@@ -73,6 +77,7 @@ export default function NavHeader() {
                         </InputGroupAddon>
                         <FormInput className="border-0" placeholder="Search..."/>
                     </InputGroup>
+
                 </Nav>
             </Collapse>
         </Navbar>

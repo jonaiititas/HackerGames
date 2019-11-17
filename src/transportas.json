@@ -1,0 +1,378 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-11-16T17:42:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1711303706",
+        "amenity": "car_wash",
+        "name": "Circle K"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1606031,
+          55.7042292
+        ]
+      },
+      "id": "node/1711303706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1802456830",
+        "amenity": "car_wash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1449154,
+          55.6875116
+        ]
+      },
+      "id": "node/1802456830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2497116770",
+        "amenity": "car_wash",
+        "automated": "yes",
+        "name": "Plaunu pats",
+        "self_service": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1646703,
+          55.7035282
+        ]
+      },
+      "id": "node/2497116770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2883827927",
+        "amenity": "car_wash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2017167,
+          55.6728011
+        ]
+      },
+      "id": "node/2883827927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2885304356",
+        "amenity": "car_wash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1844823,
+          55.682976
+        ]
+      },
+      "id": "node/2885304356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362709898",
+        "amenity": "car_wash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1726989,
+          55.6663556
+        ]
+      },
+      "id": "node/4362709898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362780991",
+        "amenity": "car_wash",
+        "name": "Circle K",
+        "opening_hours": "Mo-Su,PH 00:00-24:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1246969,
+          55.7302722
+        ]
+      },
+      "id": "node/4362780991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4377375550",
+        "amenity": "car_wash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.164026,
+          55.6670586
+        ]
+      },
+      "id": "node/4377375550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4660508605",
+        "amenity": "fuel",
+        "fuel:1_25": "no",
+        "fuel:1_50": "no",
+        "fuel:GTL_diesel": "no",
+        "fuel:HGV_diesel": "no",
+        "fuel:biodiesel": "no",
+        "fuel:biogas": "no",
+        "fuel:cng": "yes",
+        "fuel:diesel": "no",
+        "fuel:e10": "no",
+        "fuel:e85": "no",
+        "fuel:electricity": "no",
+        "fuel:lpg": "no",
+        "fuel:octane_100": "no",
+        "fuel:octane_91": "no",
+        "fuel:octane_95": "no",
+        "fuel:octane_98": "no",
+        "name": "SG dujos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1603801,
+          55.7203248
+        ]
+      },
+      "id": "node/4660508605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4820737441",
+        "amenity": "car_wash",
+        "name": "Easyshine",
+        "name:en": "Car cleaning service",
+        "name:lt": "Easyshine",
+        "opening_hours": "Mo-Fr 08:00-18:00, Sa 09:00-16:00",
+        "phone": "+37065530675"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1233952,
+          55.7307055
+        ]
+      },
+      "id": "node/4820737441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4958533121",
+        "amenity": "car_wash",
+        "description": "Požeminėje aikštelėje.",
+        "name": "Auto plovykla",
+        "name:en": "Car wash",
+        "name:lt": "Auto plovykla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.141985,
+          55.7278912
+        ]
+      },
+      "id": "node/4958533121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5690906395",
+        "amenity": "car_wash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.176255,
+          55.6610494
+        ]
+      },
+      "id": "node/5690906395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5760595894",
+        "amenity": "car_wash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1505118,
+          55.7191953
+        ]
+      },
+      "id": "node/5760595894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5817350037",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "62",
+        "addr:street": "Tilžės g.",
+        "amenity": "car_rental",
+        "name": "Solorent",
+        "phone": "+370 647 47 149",
+        "website": "http://www.solorent.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.170258,
+          55.7048887
+        ]
+      },
+      "id": "node/5817350037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5817393366",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "19",
+        "addr:street": "Žvejų g.",
+        "amenity": "car_rental",
+        "name": "Avis",
+        "website": "https://www.avis.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1316948,
+          55.7086966
+        ]
+      },
+      "id": "node/5817393366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5817397578",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "7",
+        "addr:street": "Pilies g.",
+        "amenity": "car_rental",
+        "name": "Autobanga",
+        "phone": "+370 652 12777",
+        "website": "https://autobanga.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1366004,
+          55.7028699
+        ]
+      },
+      "id": "node/5817397578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5817401970",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "1",
+        "addr:street": "Naujojo Sodo g.",
+        "amenity": "car_rental",
+        "name": "Žalia rūta",
+        "phone": "+370 603 03690",
+        "website": "http://www.zaliaruta.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1299812,
+          55.7109101
+        ]
+      },
+      "id": "node/5817401970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5817410853",
+        "amenity": "car_rental",
+        "name": "Euro renta",
+        "operator": "UAB \"Autoblikas\"",
+        "phone": "+370 686 00611",
+        "website": "http://www.eurorenta.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1312321,
+          55.7074544
+        ]
+      },
+      "id": "node/5817410853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5853441809",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "18",
+        "addr:street": "Šiaurės pr.",
+        "amenity": "car_wash",
+        "description": "Savitarnos plovykla. Yra dulkių siurblys, langų skysčio papildymo automatas, kilimėlių plovimo automatas, šluostės sausinimui.",
+        "name": "H2AUTO",
+        "phone": "+370 667 00222",
+        "website": "https://www.h2auto.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1303652,
+          55.7290696
+        ]
+      },
+      "id": "node/5853441809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6764816348",
+        "amenity": "car_wash",
+        "name": "IClean",
+        "phone": "+370 683 22 986",
+        "website": "http://iclean.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1394119,
+          55.7018309
+        ]
+      },
+      "id": "node/6764816348"
+    }
+  ]
+}

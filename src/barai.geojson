@@ -1,0 +1,532 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-11-16T13:20:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1061828309",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1800831,
+          55.674167
+        ]
+      },
+      "id": "node/1061828309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3550109566",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "42",
+        "addr:postcode": "92226",
+        "addr:street": "Šaulių g.",
+        "amenity": "bar",
+        "name": "Šiaurės ratas",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "phone": "+370 46 210358",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1296771,
+          55.7191376
+        ]
+      },
+      "id": "node/3550109566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3655509693",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "2",
+        "addr:street": "Žvejų g.",
+        "amenity": "bar",
+        "name": "Faksas",
+        "opening_hours": "Mo-Su 17:00-03:00",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1324853,
+          55.709475
+        ]
+      },
+      "id": "node/3655509693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4260101191",
+        "amenity": "bar",
+        "name": "Seven Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1327884,
+          55.7093019
+        ]
+      },
+      "id": "node/4260101191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4268152990",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1928208,
+          55.6643101
+        ]
+      },
+      "id": "node/4268152990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4281991105",
+        "amenity": "bar",
+        "cuisine": "diner;international",
+        "name": "Malibu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1905062,
+          55.671705
+        ]
+      },
+      "id": "node/4281991105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4281991212",
+        "amenity": "bar",
+        "email": "demitus1@gmail.com",
+        "name": "Alaus uostas",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1913227,
+          55.672297
+        ]
+      },
+      "id": "node/4281991212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4318284803",
+        "addr:city": "Klaipėda",
+        "addr:country": "LT",
+        "addr:housenumber": "20",
+        "addr:street": "Didžioji Vandens g.",
+        "amenity": "bar",
+        "name": "IQ baras",
+        "website": "http://www.facebook.com/iqbaras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1359971,
+          55.7081444
+        ]
+      },
+      "id": "node/4318284803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4320515812",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "1A",
+        "addr:street": "Naujojo Sodo g.",
+        "amenity": "bar",
+        "level": "21",
+        "name": "Sky21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1296531,
+          55.7107982
+        ]
+      },
+      "id": "node/4320515812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476502233",
+        "amenity": "bar",
+        "name": "Storas katinas",
+        "name:en": "Fat cat",
+        "name:lt": "Storas katinas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1313663,
+          55.7085522
+        ]
+      },
+      "id": "node/4476502233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476638302",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "15",
+        "addr:street": "Danės g.",
+        "amenity": "bar",
+        "name": "Hero Cocktail Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1299528,
+          55.7095824
+        ]
+      },
+      "id": "node/4476638302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476709215",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "5A",
+        "addr:street": "Bangų g.",
+        "amenity": "bar",
+        "level": "1",
+        "name": "Raketa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1409439,
+          55.7079673
+        ]
+      },
+      "id": "node/4476709215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476726585",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "12",
+        "addr:street": "Žvejų g.",
+        "amenity": "bar",
+        "name": "Beer Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1308486,
+          55.7089596
+        ]
+      },
+      "id": "node/4476726585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476756378",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "25",
+        "addr:street": "H. Manto g.",
+        "amenity": "bar",
+        "name": "Pauzė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1275992,
+          55.7165952
+        ]
+      },
+      "id": "node/4476756378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4658796095",
+        "amenity": "bar",
+        "name": "Coco",
+        "name:en": "Coco",
+        "name:lt": "Coco",
+        "name:ru": "Коко"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.130995,
+          55.7090963
+        ]
+      },
+      "id": "node/4658796095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4692009940",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "78",
+        "addr:street": "Taikos pr.",
+        "amenity": "bar",
+        "name": "Plius-minus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1657083,
+          55.6773934
+        ]
+      },
+      "id": "node/4692009940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4722365292",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "1",
+        "addr:street": "Naujojo Sodo g.",
+        "amenity": "bar",
+        "name": "Kiss",
+        "opening_hours": "Mo-Su 21:00-06:00",
+        "website": "https://naktiniaiklubai.lt/kokteiliu-barai/klaipedoje/kiss"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1308559,
+          55.7106668
+        ]
+      },
+      "id": "node/4722365292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4759218743",
+        "addr:postcode": "91246",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Achtung Baby",
+        "opening_hours": "Tu-Th 15:00-23:00; Fr-Sa 15:00-01:00",
+        "phone": "+370 699 90 028",
+        "website": "http://achtungbaby.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1347432,
+          55.70687
+        ]
+      },
+      "id": "node/4759218743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4816066527",
+        "amenity": "bar",
+        "name": "Alynas",
+        "name:en": "Fresh beer pub \"alynas\"",
+        "name:lt": "Alynas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1413593,
+          55.7273415
+        ]
+      },
+      "id": "node/4816066527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4948266421",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "2",
+        "addr:street": "Tilžės g.",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "Gero alaus parduotuvė",
+        "name:en": "Good beer shop",
+        "name:lt": "Gero alaus parduotuvė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1432859,
+          55.7062722
+        ]
+      },
+      "id": "node/4948266421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4964582221",
+        "amenity": "bar",
+        "name": "Baras Pinta",
+        "name:en": "Pub Pinta",
+        "name:lt": "Baras Pinta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1524302,
+          55.6779077
+        ]
+      },
+      "id": "node/4964582221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5297145721",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Alynas",
+        "website": "https://www.alynas.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1779687,
+          55.6627903
+        ]
+      },
+      "id": "node/5297145721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763332620",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "4",
+        "addr:street": "Žvejų g.",
+        "amenity": "bar",
+        "description": "Craft beer and burgers",
+        "email": "dock.baras@gmail.com",
+        "name": "Dock",
+        "opening_hours": "Mo-Th 12:00-24:00; Fr-Sa 12:00-02:00; Su 12:00-24:00",
+        "phone": "+370 613 02310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1320328,
+          55.7091972
+        ]
+      },
+      "id": "node/5763332620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5783825432",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "40A",
+        "addr:street": "H. Manto g.",
+        "amenity": "bar",
+        "name": "Centras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1286445,
+          55.7177083
+        ]
+      },
+      "id": "node/5783825432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5789811114",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "39",
+        "addr:street": "Taikos pr.",
+        "amenity": "bar",
+        "name": "Akademikai",
+        "opening_hours": "Mo-Su 21:00-06:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1492265,
+          55.6982346
+        ]
+      },
+      "id": "node/5789811114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5804224937",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "1",
+        "addr:street": "H. Manto g.",
+        "amenity": "bar",
+        "name": "Amber Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1312394,
+          55.7121134
+        ]
+      },
+      "id": "node/5804224937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6576742032",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "10",
+        "addr:postcode": "91241",
+        "addr:street": "Žvejų g.",
+        "amenity": "bar",
+        "cuisine": "tea",
+        "name": "Fumosumo",
+        "opening_hours": "Mo-We 13:00-23:00; Th 13:00-00:00; Fr-Sa 13:00-02:00; Su 13:00-23:00",
+        "phone": "+370 650 13 059",
+        "website": "http://fumosumo.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1309158,
+          55.7091754
+        ]
+      },
+      "id": "node/6576742032"
+    }
+  ]
+}

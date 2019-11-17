@@ -1,0 +1,1188 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-11-16T13:18:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/474737566",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Devyni Baras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1350761,
+          55.7052213
+        ]
+      },
+      "id": "node/474737566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1029996332",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "84",
+        "addr:street": "H. Manto g.",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Charlie Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1241077,
+          55.72838
+        ]
+      },
+      "id": "node/1029996332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1030930040",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "141",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "cuisine": "pizza;regional",
+        "name": "Charlie pizza",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1773046,
+          55.6632427
+        ]
+      },
+      "id": "node/1030930040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1030930051",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "141",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Huang Gong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1778639,
+          55.6640788
+        ]
+      },
+      "id": "node/1030930051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1030930096",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "141",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Craft Pizza",
+        "opening_hours": "Mo-Su 11:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1777905,
+          55.6641981
+        ]
+      },
+      "id": "node/1030930096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1030930207",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "141",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Vyšnia 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1779379,
+          55.6639584
+        ]
+      },
+      "id": "node/1030930207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1031471757",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "28",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Čili pica",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1475929,
+          55.6977854
+        ]
+      },
+      "id": "node/1031471757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1033070683",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "139",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "cuisine": "pizza;regional",
+        "name": "Čili pica",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1765058,
+          55.6647864
+        ]
+      },
+      "id": "node/1033070683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1372493409",
+        "amenity": "restaurant",
+        "name": "Friedricho Pasažas",
+        "opening_hours": "Mo-Su 12:00-24:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "website": "http://www.pasazas.lt",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.137771,
+          55.7070065
+        ]
+      },
+      "id": "node/1372493409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827619752",
+        "amenity": "restaurant",
+        "name": "Juodasis Vilkas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1742097,
+          55.6748382
+        ]
+      },
+      "id": "node/1827619752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2300648186",
+        "amenity": "restaurant",
+        "name": "Kurėnas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1201822,
+          55.7188959
+        ]
+      },
+      "id": "node/2300648186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2461408652",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "8",
+        "addr:street": "Sukilėlių g.",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "description": "Traditional lithuanian food.",
+        "email": "klaipeda@fortodvaras.lt",
+        "name": "Forto dvaras",
+        "opening_hours": "Mo-We 11:00-22:00; Th-Sa 11:00-24:00; Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+370 640 37 654",
+        "website": "http://fortodvaras.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1320361,
+          55.7072333
+        ]
+      },
+      "id": "node/2461408652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2461408653",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "6",
+        "addr:street": "Sukilėlių g.",
+        "amenity": "restaurant",
+        "name": "Piccolini",
+        "phone": "+37061353333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1317866,
+          55.7073611
+        ]
+      },
+      "id": "node/2461408653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2769126589",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "53",
+        "addr:street": "Baltijos pr.",
+        "amenity": "restaurant",
+        "capacity": "30",
+        "cuisine": "regional",
+        "name": "Martyno Mažvydo mokyklos valgykla",
+        "opening_hours": "12:10-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1704885,
+          55.6869468
+        ]
+      },
+      "id": "node/2769126589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2854764620",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "7",
+        "addr:postcode": "91190",
+        "addr:street": "Varnėnų g.",
+        "amenity": "restaurant",
+        "name": "Ridikai",
+        "phone": "+37060913320",
+        "website": "https://lt-lt.facebook.com/pages/Restoranas-Ridikai-Klaipeda/174849895936126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1436691,
+          55.6894914
+        ]
+      },
+      "id": "node/2854764620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2883827715",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "97B",
+        "addr:postcode": "94160",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "name": "Medinava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1665388,
+          55.679072
+        ]
+      },
+      "id": "node/2883827715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2883827716",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "61A",
+        "addr:street": "Debreceno g.",
+        "amenity": "restaurant",
+        "name": "Troba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.167953,
+          55.6793099
+        ]
+      },
+      "id": "node/2883827716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3543941398",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "4",
+        "addr:street": "M. Mažvydo al.",
+        "amenity": "restaurant",
+        "name": "Charlie Pizza",
+        "opening_hours": "Mo-Th 10:00-00:00; Fr-Sa 10:00-02:00; Su 10:00-00:00",
+        "phone": "+370 612 32 354",
+        "website": "https://www.charliepizza.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1310975,
+          55.7138607
+        ]
+      },
+      "id": "node/3543941398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3550173479",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "2",
+        "addr:postcode": "92232",
+        "addr:street": "Lietuvininkų a.",
+        "amenity": "restaurant",
+        "cuisine": "European",
+        "name": "Eldorado",
+        "opening_hours": "Mo-We 11:00-23:00; Th 11:00-00:00; Fr 11:00-02:00; Sa 12:00-02:00; Su 12:00-22:00",
+        "phone": "+370 603 83 083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1281794,
+          55.7181628
+        ]
+      },
+      "id": "node/3550173479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3619421690",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "31A",
+        "addr:street": "H. Manto g.",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "“Žemaitija Jack”",
+        "opening_hours": "Mo-We 11:00-24:00; Th-Sa 11:00-04:00; Su 12:00-24:00",
+        "phone": "+370 46 410 555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1276562,
+          55.7175791
+        ]
+      },
+      "id": "node/3619421690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3635023491",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "12",
+        "addr:street": "Žvejų g.",
+        "alt_name": "Beer Garden Pub",
+        "amenity": "restaurant",
+        "name": "Katpėdėlė Mėmelis",
+        "real_ale": "lager"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1307431,
+          55.7090081
+        ]
+      },
+      "id": "node/3635023491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4228221601",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "email": "info@bluez.lt",
+        "internet_access": "wlan",
+        "name": "Muzikinis klubas „Bluez“",
+        "opening_hours": "Su-Th 10:00-22:00; Fr-Sa 14:00-04:00",
+        "phone": "+37064334344",
+        "website": "http://www.bluez.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1313171,
+          55.7091544
+        ]
+      },
+      "id": "node/4228221601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4286326405",
+        "amenity": "restaurant",
+        "name": "Meridianas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1350044,
+          55.710355
+        ]
+      },
+      "id": "node/4286326405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4320512399",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "6",
+        "addr:street": "Tiltų g.",
+        "amenity": "restaurant",
+        "name": "Stora antis",
+        "name:lt": "Stora antis",
+        "name:ru": "Толстая утка",
+        "website": "https://www.storaantis.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1340456,
+          55.709423
+        ]
+      },
+      "id": "node/4320512399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4320522789",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "12",
+        "addr:street": "Liepojos g.",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Express Pizza",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1274868,
+          55.7322185
+        ]
+      },
+      "id": "node/4320522789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4325036850",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "1",
+        "addr:street": "Daržų g.",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Auksinis liūtas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.136882,
+          55.7071315
+        ]
+      },
+      "id": "node/4325036850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476519003",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "4",
+        "addr:street": "Liepų g.",
+        "amenity": "restaurant",
+        "name": "Monai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1326795,
+          55.711692
+        ]
+      },
+      "id": "node/4476519003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476572889",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "1A",
+        "addr:street": "Naujojo Sodo g.",
+        "amenity": "restaurant",
+        "level": "20",
+        "name": "Vivalavita",
+        "opening_hours": "Mo-Th 12:00-01:00; Fr-Sa 12:00-03:00; Su 12:00-01:00",
+        "website": "https://ambertonhotels.com/lt/klaipeda/restoranai/restoranas-vivalavita/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1296685,
+          55.7109062
+        ]
+      },
+      "id": "node/4476572889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476576401",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "1",
+        "addr:street": "Naujojo Sodo g.",
+        "amenity": "restaurant",
+        "description": "Amberton viešbučio restoranas XII (pavadinimas kilęs nuo viešbučio 12-ojo aukšto, kur jis ir įsikūręs) – vienas ilgiausiai gyvuojančių restoranų Klaipėdos mieste. Kiekvieną darbo dieną nuo 12:00 iki 15:00 val. restorane XII patiekiami dienos pietūs.",
+        "level": "12",
+        "name": "XII",
+        "opening_hours": "Mo-Th 12:00-01:00; Fr-Sa 12:00-03:00; Su 12:00-01:00",
+        "outdoor_seating": "no",
+        "phone": "+370 46 404375",
+        "website": "https://ambertonhotels.com/lt/klaipeda/restoranai/restoranas-xii/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1305483,
+          55.7110663
+        ]
+      },
+      "id": "node/4476576401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476715318",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "23",
+        "addr:street": "Turgaus g.",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Jing Bin Lou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1354904,
+          55.7093881
+        ]
+      },
+      "id": "node/4476715318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4511266901",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "66A",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Kinų bambukas",
+        "name:en": "Chinese bamboo",
+        "name:lt": "Kinų bambukas",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "website": "http://kinubambukas.lt/kontaktai/h.-manto-43.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1597665,
+          55.6844427
+        ]
+      },
+      "id": "node/4511266901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4511272191",
+        "amenity": "restaurant",
+        "cuisine": "georgian",
+        "name": "Gruziniška legenda",
+        "name:en": "Georgian legend",
+        "name:lt": "Gruziniška legenda",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "phone": "+37063132323"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1459382,
+          55.6986797
+        ]
+      },
+      "id": "node/4511272191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4635065391",
+        "amenity": "restaurant",
+        "cuisine": "sushi;asian",
+        "name": "Kanpai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1313836,
+          55.7088634
+        ]
+      },
+      "id": "node/4635065391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4770095823",
+        "amenity": "restaurant",
+        "name": "Trapiche Steakhouse",
+        "name:en": "Trapiche Steakhouse",
+        "name:lt": "Trapiche Steakhouse",
+        "name:ru": "Трапичхе Стейкхаус"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.137334,
+          55.7066718
+        ]
+      },
+      "id": "node/4770095823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4771167021",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "3",
+        "addr:street": "Puodžių g.",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Lietuviški patiekalai",
+        "name:en": "Lithuanian dishes",
+        "name:lt": "Lietuviški patiekalai",
+        "name:ru": "Литовские яства",
+        "phone": "+370 46 216402",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1287981,
+          55.7117025
+        ]
+      },
+      "id": "node/4771167021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4841956692",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "1",
+        "addr:street": "Naujojo Sodo g.",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "delivery": "yes",
+        "email": "klaipeda@sushiexpress.lt",
+        "name": "Sushi Express",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+370 630 45444",
+        "takeaway": "yes",
+        "website": "https://www.sushiexpress.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1311924,
+          55.7112753
+        ]
+      },
+      "id": "node/4841956692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5002908882",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "38",
+        "addr:street": "H. Manto g.",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Dodo Pizza",
+        "opening_hours": "Mo-Th 09:00-23:00; Fr 09:00-00:00; Sa 09:00-01:00; Su 09:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+37046311333",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://dodopizza.lt/Klaipeda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1283346,
+          55.7172822
+        ]
+      },
+      "id": "node/5002908882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5002916277",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "10",
+        "addr:street": "Turgaus g.",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "email": "info@baltoslekstes.lt",
+        "name": "Baltos Lėkštės",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+37062441640",
+        "website": "https://www.facebook.com/pg/Baltos-Lėkštės-377087552650166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1344282,
+          55.7084416
+        ]
+      },
+      "id": "node/5002916277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111444822",
+        "amenity": "restaurant",
+        "name": "Mažioji Turkija",
+        "name:lt": "Mažioji Turkija",
+        "name:ru": "Малая Турция"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1719526,
+          55.6717742
+        ]
+      },
+      "id": "node/5111444822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5365865305",
+        "amenity": "restaurant",
+        "name": "Biskvitas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1458181,
+          55.7186329
+        ]
+      },
+      "id": "node/5365865305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5366123543",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pipita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1348301,
+          55.7190197
+        ]
+      },
+      "id": "node/5366123543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5446109913",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "44",
+        "addr:street": "I. Kanto g.",
+        "amenity": "restaurant",
+        "name": "Skandalas",
+        "opening_hours": "Mo-Th 12:00-00:00; Fr-Sa 12:00-01:00; Su 12:00-23:00",
+        "outdoor_seating": "yes",
+        "website": "http://restoranaskandalas.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1217657,
+          55.7184542
+        ]
+      },
+      "id": "node/5446109913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5588894184",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "12",
+        "addr:street": "S. Šimkaus g.",
+        "amenity": "restaurant",
+        "cuisine": "barbecue",
+        "delivery": "no",
+        "name": "Mudu",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1295746,
+          55.7137007
+        ]
+      },
+      "id": "node/5588894184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5742073321",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "43",
+        "addr:street": "H. Manto g.",
+        "amenity": "restaurant",
+        "cuisine": "chinese;asian",
+        "name": "Kinų bambukas",
+        "website": "http://kinubambukas.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1265855,
+          55.7192619
+        ]
+      },
+      "id": "node/5742073321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763953153",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "61",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "cuisine": "grill;burger;pasta",
+        "description": "„Grill London“ – ant žarijų keptų patiekalų restoranų tinklas.  Visi kepsniai – kepami unikaliose keraminėse kepsninėse, naudojant ekologiškas anglis.",
+        "name": "Grill London",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "website": "http://grilllondon.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1556899,
+          55.6921718
+        ]
+      },
+      "id": "node/5763953153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763981782",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "61",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "name": "CanCan pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1565281,
+          55.6916798
+        ]
+      },
+      "id": "node/5763981782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763981783",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "61",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "name": "Soya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1566716,
+          55.6917941
+        ]
+      },
+      "id": "node/5763981783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763981784",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "61",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "name": "Čili pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.15681,
+          55.6918944
+        ]
+      },
+      "id": "node/5763981784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763981785",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "61",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "name": "Manami"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1569881,
+          55.6920087
+        ]
+      },
+      "id": "node/5763981785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763981786",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "61",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "name": "Charlie pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1572008,
+          55.6921704
+        ]
+      },
+      "id": "node/5763981786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763981787",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "61",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "name": "Delano",
+        "website": "http://delano.lt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1561374,
+          55.6920812
+        ]
+      },
+      "id": "node/5763981787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5764134043",
+        "amenity": "restaurant",
+        "name": "Sushi Express"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1252992,
+          55.7289823
+        ]
+      },
+      "id": "node/5764134043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5783803602",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "9A",
+        "addr:street": "H. Manto g.",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Baltoji gėlelė"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1296688,
+          55.7143315
+        ]
+      },
+      "id": "node/5783803602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5783854353",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "36A",
+        "addr:street": "H. Manto g.",
+        "amenity": "restaurant",
+        "name": "Ingredientai",
+        "opening_hours": "Tu-Fr15:00-22:00; Sa 13:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1290616,
+          55.7170878
+        ]
+      },
+      "id": "node/5783854353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5817497185",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "23",
+        "addr:street": "Jūros g.",
+        "amenity": "restaurant",
+        "description": "The restaurant's \"Tonas\" kitchen is managed by a qualified and experienced chef who created a non-extensive yet carefully selected menu by choosing only finest dishes of European cuisine.",
+        "name": "Tonas",
+        "phone": "+370 46 385 577"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1252846,
+          55.7124696
+        ]
+      },
+      "id": "node/5817497185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6435499685",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "61",
+        "addr:street": "Taikos pr.",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "delivery": "yes",
+        "email": "klaipeda@sushiexpress.lt",
+        "name": "Sushi Express",
+        "opening_hours": "Mo-Sa 10:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+370 653 99997",
+        "takeaway": "yes",
+        "website": "https://www.sushiexpress.lt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1560501,
+          55.6919363
+        ]
+      },
+      "id": "node/6435499685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6572444411",
+        "addr:city": "Klaipėda",
+        "addr:housenumber": "51",
+        "addr:street": "Nemuno g.",
+        "amenity": "restaurant",
+        "name": "Ibis Styles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1414156,
+          55.6890751
+        ]
+      },
+      "id": "node/6572444411"
+    }
+  ]
+}
