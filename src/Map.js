@@ -14,6 +14,9 @@ import transport from "./transportas.json";
 import health from "./sveikata.json";
 import {scaleThreshold} from 'd3-scale';
 import {featureCollection} from "@turf/helpers";
+import {Modal, ModalBody, ModalHeader} from "shards-react";
+import a from "./a.png"
+import b from "./b.png"
 
 const token = process.env.REACT_APP_TOKEN;
 
@@ -69,6 +72,7 @@ export default function Map() {
         zoom: 11,
         pitch: 0
     });
+    const [open, toggle] = useState(false)
 
 /*
     const renderTooltip = () => {
@@ -82,7 +86,7 @@ export default function Map() {
 */
 
 
-    const getDistrictsColor = (polygon) => {
+    const getDistrictsColor = (polygon, heightInstead=false) => {
        let arr = [];
        Object.entries(toggleLayers).forEach(l => {
            if(l[1] && l[0] !== "districts"){
@@ -94,6 +98,9 @@ export default function Map() {
        const fc = featureCollection(arr);
        // console.log(fc);
         let inside = within(fc, polygon);
+        if(heightInstead){
+            return 500 * Object.keys(inside.features).length
+        }
         console.log(Object.keys(inside.features).length,COLOR_SCALE(Object.keys(inside.features).length));
         return COLOR_SCALE(Object.keys(inside.features).length);
    };
@@ -110,7 +117,7 @@ export default function Map() {
             visible: toggleLayers.districts,
             pickable: true,
             extruded: true,
-            getElevation: 1000,
+            getElevation: p => getDistrictsColor(p, true),
             stroked: true,
             filled: true,
             lineWidthScale: 2,
@@ -119,7 +126,8 @@ export default function Map() {
             getFillColor: p => getDistrictsColor(p),
             getRadius: 10,
             getLineWidth: 1,
-            autoHighlight: true
+            autoHighlight: true,
+            onClick: (info, event) => toggle(!open)
         }),
             new GeoJsonLayer({
                 id: 'shops-layer',
@@ -220,6 +228,10 @@ export default function Map() {
             </DeckGL>
             {/*<DeckGL {...viewport} layers={[searchResultLayer]}/>*/}
             <LayerControl layers={toggleLayers} handleChange={handleChange}/>
+            <Modal size="lg" open={open} toggle={() => toggle(!open)}>
+                <ModalHeader>Zona 5</ModalHeader>
+                <ModalBody style={{overflow: "scroll", maxHeight: "600px"}}><img alt="" src={a}/><img src={b} alt=""/></ModalBody>
+            </Modal>
 
         </MapWrapper>
     )

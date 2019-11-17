@@ -18,7 +18,7 @@ export default function LayerControl({layers, handleChange}) {
     return (
         <Wrapper>
             <StyledCard style={{maxWidth: "300px"}}>
-                <CardHeader>Layer Control</CardHeader>
+                <CardHeader>Sluoksniai</CardHeader>
                 <CardBody>
                     {/*<CardTitle>Lorem Ipsum</CardTitle>*/}
                     <FormCheckbox

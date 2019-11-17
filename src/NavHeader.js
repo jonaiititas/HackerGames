@@ -18,7 +18,7 @@ import {
     FormInput,
     Collapse
 } from "shards-react";
-
+import logo from "./logo_gray.png"
 
 
 export default function NavHeader() {
@@ -36,7 +36,7 @@ export default function NavHeader() {
 
     return (
         <Navbar type="light" theme="light" expand="md">
-            <NavbarBrand href="#">Hacker Games Project</NavbarBrand>
+            <NavbarBrand href="#"><img src={logo} height="45px" alt="logo"/></NavbarBrand>
             <NavbarToggler onClick={toggleNavbar}/>
 
             <Collapse open={collapseOpen} navbar>
