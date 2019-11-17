@@ -99,7 +99,7 @@ export default function Map() {
        // console.log(fc);
         let inside = within(fc, polygon);
         if(heightInstead){
-            return 500 * Object.keys(inside.features).length
+            return 250 * Object.keys(inside.features).length
         }
         console.log(Object.keys(inside.features).length,COLOR_SCALE(Object.keys(inside.features).length));
         return COLOR_SCALE(Object.keys(inside.features).length);
