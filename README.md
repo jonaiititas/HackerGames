@@ -1,5 +1,5 @@
-# Hacker Games project frontend
-Still need name
+# looq frontend
+[![pipeline status](https://gitlab.com/vykintazo/hackergames/badges/master/pipeline.svg)](https://gitlab.com/vykintazo/hackergames/commits/master)
 
 [Docs'as](https://docs.google.com/document/d/1oi_4rW268DrZudaxxaMyEozlN1jvED5BcIcyekEknLc/edit?usp=sharing)
 
