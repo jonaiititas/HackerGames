@@ -2,7 +2,7 @@ import React, {} from 'react';
 import './App.css';
 import NavHeader from "./NavHeader";
 import Map from "./Map";
-
+import '../node_modules/react-vis/dist/style.css';
 
 function App() {
 

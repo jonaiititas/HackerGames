@@ -17,9 +17,23 @@ import {featureCollection} from "@turf/helpers";
 import {Modal, ModalBody, ModalHeader} from "shards-react";
 import a from "./a.png"
 import b from "./b.png"
+import abc from "./airarit.json"
+import {HorizontalGridLines, LineSeries, VerticalGridLines, XAxis, XYPlot, YAxis} from "react-vis";
 
 const token = process.env.REACT_APP_TOKEN;
 
+const data = [
+    {x: 0, y: 8},
+    {x: 1, y: 5},
+    {x: 2, y: 4},
+    {x: 3, y: 9},
+    {x: 4, y: 1},
+    {x: 5, y: 7},
+    {x: 6, y: 6},
+    {x: 7, y: 3},
+    {x: 8, y: 2},
+    {x: 9, y: 0}
+];
 
 let pointData = {
     "type": "FeatureCollection",
@@ -99,7 +113,7 @@ export default function Map() {
        // console.log(fc);
         let inside = within(fc, polygon);
         if(heightInstead){
-            return 250 * Object.keys(inside.features).length
+            return 100 * Object.keys(inside.features).length
         }
         console.log(Object.keys(inside.features).length,COLOR_SCALE(Object.keys(inside.features).length));
         return COLOR_SCALE(Object.keys(inside.features).length);
@@ -230,7 +244,15 @@ export default function Map() {
             <LayerControl layers={toggleLayers} handleChange={handleChange}/>
             <Modal size="lg" open={open} toggle={() => toggle(!open)}>
                 <ModalHeader>Zona 5</ModalHeader>
-                <ModalBody style={{overflow: "scroll", maxHeight: "600px"}}><img alt="" src={a}/><img src={b} alt=""/></ModalBody>
+                <ModalBody style={{overflow: "scroll"}}>
+                <XYPlot a getY={d => d["Apdraustųjų skaičius (numInsured)"]}  getX={d => d["Mėnuo (month)"]} height={300} width={500}>
+                <VerticalGridLines />
+                <HorizontalGridLines />
+                <YAxis />
+                <XAxis/>
+                <LineSeries animation data={abc} />
+                </XYPlot>
+                </ModalBody>
             </Modal>
 
         </MapWrapper>
