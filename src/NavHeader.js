@@ -8,10 +8,6 @@ import {
     Nav,
     NavItem,
     NavLink,
-    Dropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
     InputGroup,
     InputGroupAddon,
     InputGroupText,
@@ -23,12 +19,7 @@ import logo from "./logo_gray.png"
 
 export default function NavHeader() {
 
-    const [dropdownOpen, setDropdownOpen] = useState(false);
     const [collapseOpen, setCollapseOpen] = useState(false);
-
-    const toggleDropdown = () => {
-        setDropdownOpen(!dropdownOpen);
-    };
 
     const toggleNavbar = () => {
         setCollapseOpen(!collapseOpen);
@@ -36,38 +27,24 @@ export default function NavHeader() {
 
     return (
         <Navbar type="light" theme="light" expand="md">
-            <NavbarBrand href="#"><img src={logo} height="45px" alt="logo"/></NavbarBrand>
+            <NavbarBrand href="#"><img src={logo} height="40px" alt="logo"/></NavbarBrand>
             <NavbarToggler onClick={toggleNavbar}/>
 
             <Collapse open={collapseOpen} navbar>
                 <Nav navbar>
                     <NavItem>
                         <NavLink active href="#">
-                            Active
+                            Apie projektą
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#" disabled>
-                            Disabled
+                        <NavLink active href="#">
+                            Kaip naudotis
                         </NavLink>
                     </NavItem>
-                    <Dropdown
-                        open={dropdownOpen}
-                        toggle={toggleDropdown}
-                    >
-                        <DropdownToggle nav caret>
-                            Dropdown
-                        </DropdownToggle>
-                        <DropdownMenu>
-                            <DropdownItem>Action</DropdownItem>
-                            <DropdownItem>Another action</DropdownItem>
-                            <DropdownItem>Something else here</DropdownItem>
-                        </DropdownMenu>
-                    </Dropdown>
                 </Nav>
 
                 <Nav navbar className="ml-auto">
-
                     <InputGroup size="sm" seamless>
 
                         <InputGroupAddon type="prepend">

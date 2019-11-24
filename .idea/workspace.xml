@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0674e2a3-986b-4543-8d44-2b80b4143106" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/airarit.json" afterDir="false" />
+    <list default="true" id="0674e2a3-986b-4543-8d44-2b80b4143106" name="Default Changelist" comment="Added storybook.&#10;New more mobile friendly layer control&#10;Nivo chart component (only in storybook for now)">
+      <change afterPath="$PROJECT_DIR$/.storybook/addons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LineChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/0-Welcome.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/1-Button.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/LineChart.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/MapControl.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LayerControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapControl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/airart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/airarit.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/airarit.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +54,11 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/stories" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,6 +113,10 @@
       <workItem from="1574017868543" duration="15000" />
       <workItem from="1574018228854" duration="2428000" />
       <workItem from="1574061300550" duration="18000" />
+      <workItem from="1574100470273" duration="57000" />
+      <workItem from="1574435443967" duration="589000" />
+      <workItem from="1574518400755" duration="5684000" />
+      <workItem from="1574542611364" duration="12785000" />
     </task>
     <task id="LOCAL-00001" summary="Added 3 layers showing shops in Klapeda (data from OSM).&#10;Added layer control panel (not mobile friendly yet).&#10;Some performance bugs.&#10;Added coding rules.">
       <created>1573573530730</created>
@@ -136,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573999639187</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Latest version">
+      <created>1574100494351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574100494351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +188,7 @@
     <MESSAGE value="Added 3 layers showing shops in Klapeda (data from OSM).&#10;Added layer control panel (not mobile friendly yet).&#10;Some performance bugs.&#10;Added coding rules." />
     <MESSAGE value="Added unadded files" />
     <MESSAGE value="Showing some data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Showing some data" />
+    <MESSAGE value="Latest version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Latest version" />
   </component>
 </project>

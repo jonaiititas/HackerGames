@@ -1,26 +1,36 @@
 import React from 'react'
-import {Card, CardBody, CardHeader, FormCheckbox,} from "shards-react";
+import {Button, ButtonGroup, Card, CardBody, CardHeader, FormCheckbox} from "shards-react";
 import styled from "styled-components"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faCube, faLayerGroup} from "@fortawesome/free-solid-svg-icons";
 
-export default function LayerControl({layers, handleChange}) {
 
+export default function MapControl({toggle, toggleButton, layers, handleChange}) {
 
     const Wrapper = styled.div`
-         position: absolute;
-         top: 5px;
-         right: 5px;
+         display: flex;
+         align-items: flex-start;
+         justify-content: flex-end;
          height: 300px;
          margin: 20px;
     `;
     const StyledCard = styled(Card)`
          max-width: 300px;
+         margin: 10px;
+    `;
+    const ToggleButton = styled(Button)`
+        background: ${props => props.active ? "blue": "#e9ecef"};
+        border: 1px solid lightgrey;
+    `;
+    const Icon = styled(FontAwesomeIcon)`
+        color: ${props => props.active ? "white": "black"}
     `;
     return (
         <Wrapper>
+            {toggle.b1.active ?
             <StyledCard style={{maxWidth: "300px"}}>
                 <CardHeader>Sluoksniai</CardHeader>
                 <CardBody>
-                    {/*<CardTitle>Lorem Ipsum</CardTitle>*/}
                     <FormCheckbox
                         disabled
                         checked={layers.districts}
@@ -60,6 +70,13 @@ export default function LayerControl({layers, handleChange}) {
                     </FormCheckbox>
                 </CardBody>
             </StyledCard>
+            : null}
+            <ButtonGroup vertical>
+                <ToggleButton id="b1" onClick={() => toggleButton("b1")} active={toggle.b1.active}><Icon active={toggle.b1.active} icon={faLayerGroup}/></ToggleButton>
+                <ToggleButton id="b2" onClick={() => toggleButton("b2")} active={toggle.b2.active}><Icon active={toggle.b2.active} icon={faCube}/></ToggleButton>
+            </ButtonGroup>
+
+
         </Wrapper>
     );
 }

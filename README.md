@@ -11,11 +11,13 @@
 - [styled-components](https://www.styled-components.com/)
 - [Turf.js](http://turfjs.org/)
 - [Overpass Turbo (OSM API Client)](http://overpass-turbo.eu/#)
+- [Storybook](https://storybook.js.org/) for visual UI development and testing
 
 ## Setup
 - Clone this repo
 - `npm install`
 - `npm start` to run local server
+- `npm run storybook` to run Storybook
 
 **Deployed version here: https://vykintazo.gitlab.io/hackergames/**
 

@@ -4,7 +4,7 @@ import DeckGL, {GeoJsonLayer} from "deck.gl";
 import {featureEach} from "@turf/meta";
 import within from "@turf/points-within-polygon";
 import centroid from "@turf/centroid";
-import LayerControl from "./LayerControl";
+import MapControl from "./MapControl";
 import styled from "styled-components";
 import districts from "./districts.json";
 import shops from "./shops.json";
@@ -15,32 +15,13 @@ import health from "./sveikata.json";
 import {scaleThreshold} from 'd3-scale';
 import {featureCollection} from "@turf/helpers";
 import {Modal, ModalBody, ModalHeader} from "shards-react";
-import a from "./a.png"
-import b from "./b.png"
-import abc from "./airarit.json"
-import {HorizontalGridLines, LineSeries, VerticalGridLines, XAxis, XYPlot, YAxis} from "react-vis";
 
 const token = process.env.REACT_APP_TOKEN;
-
-const data = [
-    {x: 0, y: 8},
-    {x: 1, y: 5},
-    {x: 2, y: 4},
-    {x: 3, y: 9},
-    {x: 4, y: 1},
-    {x: 5, y: 7},
-    {x: 6, y: 6},
-    {x: 7, y: 3},
-    {x: 8, y: 2},
-    {x: 9, y: 0}
-];
 
 let pointData = {
     "type": "FeatureCollection",
     "features": []
 };
-
-
 
 const COLOR_SCALE = scaleThreshold()
     .domain([0, 2, 4, 8, 12, 16, 20, 25, 30, 35])
@@ -53,7 +34,6 @@ const calcPoints = (features) => {
             let pf = centroid(f, {properties: {...f.properties}});
             pointData.features.push(pf);
         } else {
-            console.log(f.geometry.type);
             pointData.features.push(f);
         }
     });
@@ -86,25 +66,19 @@ export default function Map() {
         zoom: 11,
         pitch: 0
     });
-    const [open, toggle] = useState(false)
+    const [toggleLC, setToggle] = useState({b1: {active:false}, b2: {active:false}});
 
-/*
-    const renderTooltip = () => {
-        const {hoveredObject, pointerX, pointerY} = tooltipState || {};
-        return hoveredObject && (
-            <div style={{position: 'absolute', zIndex: 1, pointerEvents: 'none', left: pointerX, top: pointerY}}>
-                { hoveredObject.message }
-            </div>
-        );
-    }
-*/
+    const toggleButton = (key) => {
+        setToggle({...toggleLC, [key]: {...toggleLC[key], active: !toggleLC[key].active}});
+    };
+
+        const [open, toggle] = useState(false)
 
 
     const getDistrictsColor = (polygon, heightInstead=false) => {
        let arr = [];
        Object.entries(toggleLayers).forEach(l => {
            if(l[1] && l[0] !== "districts"){
-               console.log(getData(l[0]));
                arr.push(...getData(l[0]).features);
            }
        });
@@ -115,7 +89,7 @@ export default function Map() {
         if(heightInstead){
             return 100 * Object.keys(inside.features).length
         }
-        console.log(Object.keys(inside.features).length,COLOR_SCALE(Object.keys(inside.features).length));
+        // console.log(Object.keys(inside.features).length,COLOR_SCALE(Object.keys(inside.features).length));
         return COLOR_SCALE(Object.keys(inside.features).length);
    };
     useEffect(() => {
@@ -241,17 +215,10 @@ export default function Map() {
                 {/*{renderTooltip}*/}
             </DeckGL>
             {/*<DeckGL {...viewport} layers={[searchResultLayer]}/>*/}
-            <LayerControl layers={toggleLayers} handleChange={handleChange}/>
+            <MapControl toggle={toggleLC} toggleButton={toggleButton} layers={toggleLayers} handleChange={handleChange}/>
             <Modal size="lg" open={open} toggle={() => toggle(!open)}>
                 <ModalHeader>Zona 5</ModalHeader>
                 <ModalBody style={{overflow: "scroll"}}>
-                <XYPlot a getY={d => d["Apdraustųjų skaičius (numInsured)"]}  getX={d => d["Mėnuo (month)"]} height={300} width={500}>
-                <VerticalGridLines />
-                <HorizontalGridLines />
-                <YAxis />
-                <XAxis/>
-                <LineSeries animation data={abc} />
-                </XYPlot>
                 </ModalBody>
             </Modal>
 
