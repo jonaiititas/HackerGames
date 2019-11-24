@@ -42,6 +42,11 @@ export default function NavHeader() {
                             Kaip naudotis
                         </NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink active href="../storybook-static/index.html">
+                            Storybook
+                        </NavLink>
+                    </NavItem>
                 </Nav>
 
                 <Nav navbar className="ml-auto">

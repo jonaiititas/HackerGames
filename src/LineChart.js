@@ -22,12 +22,12 @@ const formatData = (data /* could add keys to convert */) => {
     return formatedData;
 };
 
-const LineChart = ({d}) => {
-console.log(formatData(d))
+const LineChart = ({d, set}) => {
+console.log(formatData(d));
 
     return (
         <ResponsiveLine
-            data={formatData(d)}
+            data={[formatData(d)[set]]}
             stacked={true}
             margin={{top: 50, right: 110, bottom: 50, left: 60}}
             xScale={{type: 'time', format: '%Y-%m'}}
@@ -41,7 +41,6 @@ console.log(formatData(d))
                 tickSize: 5,
                 tickPadding: 5,
                 tickRotation: 0,
-                legend: 'transportation',
                 legendOffset: 36,
                 legendPosition: 'middle'
             }}
@@ -50,7 +49,6 @@ console.log(formatData(d))
                 tickSize: 5,
                 tickPadding: 5,
                 tickRotation: 0,
-                legend: 'count',
                 legendOffset: -40,
                 legendPosition: 'middle'
             }}
