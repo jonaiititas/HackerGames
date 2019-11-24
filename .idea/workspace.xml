@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0674e2a3-986b-4543-8d44-2b80b4143106" name="Default Changelist" comment="" />
+    <list default="true" id="0674e2a3-986b-4543-8d44-2b80b4143106" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/maxima.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapControl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReLineChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReLineChart.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/3d-heatmap/3d-heatmap" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -101,7 +110,7 @@
       <workItem from="1574435443967" duration="589000" />
       <workItem from="1574518400755" duration="5684000" />
       <workItem from="1574542611364" duration="12808000" />
-      <workItem from="1574595102822" duration="8610000" />
+      <workItem from="1574595102822" duration="16086000" />
     </task>
     <task id="LOCAL-00001" summary="Added 3 layers showing shops in Klapeda (data from OSM).&#10;Added layer control panel (not mobile friendly yet).&#10;Some performance bugs.&#10;Added coding rules.">
       <created>1573573530730</created>
@@ -159,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574606550588</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed link to Storybook">
+      <created>1574607112846</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574607112846</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +206,7 @@
     <MESSAGE value="Latest version" />
     <MESSAGE value="Added storybook.&#10;New more mobile friendly layer control&#10;Nivo chart component (only in storybook for now)" />
     <MESSAGE value="Stories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stories" />
+    <MESSAGE value="Fixed link to Storybook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed link to Storybook" />
   </component>
 </project>

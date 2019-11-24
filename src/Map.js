@@ -15,6 +15,8 @@ import health from "./sveikata.json";
 import {scaleThreshold} from 'd3-scale';
 import {featureCollection} from "@turf/helpers";
 import {Modal, ModalBody, ModalHeader} from "shards-react";
+import maximaDataset from "./maxima.json"
+import ReLineChart from "./ReLineChart";
 
 const token = process.env.REACT_APP_TOKEN;
 
@@ -59,6 +61,7 @@ export default function Map() {
     };
     // Remember to add new props for each layer
     const [toggleLayers, setLayers] = useState({districts: true, culture: false, shops: false, transport: false, food: false, health: false});
+    const [extrude, toggleExtrude] = useState(false);
     // const [tooltipState, setTooltip] = useState(null);
     const [viewState, setViewState] = useState({
         latitude: 55.689525,
@@ -67,6 +70,11 @@ export default function Map() {
         pitch: 0
     });
     const [toggleLC, setToggle] = useState({b1: {active:false}, b2: {active:false}});
+
+    const toggle3D = () => {
+        viewState.pitch !== 0 ? setViewState({...viewState, pitch: 0}) : setViewState({...viewState, pitch: 55});
+        toggleExtrude(!extrude);
+    };
 
     const toggleButton = (key) => {
         setToggle({...toggleLC, [key]: {...toggleLC[key], active: !toggleLC[key].active}});
@@ -104,7 +112,7 @@ export default function Map() {
             data: districts,
             visible: toggleLayers.districts,
             pickable: true,
-            extruded: true,
+            extruded: extrude,
             getElevation: p => getDistrictsColor(p, true),
             stroked: true,
             filled: true,
@@ -215,10 +223,12 @@ export default function Map() {
                 {/*{renderTooltip}*/}
             </DeckGL>
             {/*<DeckGL {...viewport} layers={[searchResultLayer]}/>*/}
-            <MapControl toggle={toggleLC} toggleButton={toggleButton} layers={toggleLayers} handleChange={handleChange}/>
+            <MapControl toggle={toggleLC} toggleButton={toggleButton} layers={toggleLayers} handleChange={handleChange} toggleExtrude={toggle3D}/>
             <Modal size="lg" open={open} toggle={() => toggle(!open)}>
                 <ModalHeader>Zona 5</ModalHeader>
-                <ModalBody style={{overflow: "scroll"}}>
+                <ModalBody style={{overflowY: "scroll"}}>
+                    <ReLineChart data={maximaDataset} set="avgWage" label="Vidutinis atlyginimas"/>
+                    <ReLineChart data={maximaDataset} set="numInsured" label="Apdraustųjų skaičius"/>
                 </ModalBody>
             </Modal>
 

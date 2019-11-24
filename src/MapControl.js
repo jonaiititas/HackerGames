@@ -5,7 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCube, faLayerGroup} from "@fortawesome/free-solid-svg-icons";
 
 
-export default function MapControl({toggle, toggleButton, layers, handleChange}) {
+export default function MapControl({toggle, toggleButton, layers, handleChange, toggleExtrude}) {
 
     const Wrapper = styled.div`
          display: flex;
@@ -73,7 +73,7 @@ export default function MapControl({toggle, toggleButton, layers, handleChange})
             : null}
             <ButtonGroup vertical>
                 <ToggleButton id="b1" onClick={() => toggleButton("b1")} active={toggle.b1.active}><Icon active={toggle.b1.active} icon={faLayerGroup}/></ToggleButton>
-                <ToggleButton id="b2" onClick={() => toggleButton("b2")} active={toggle.b2.active}><Icon active={toggle.b2.active} icon={faCube}/></ToggleButton>
+                <ToggleButton id="b2" onClick={() => {toggleButton("b2"); toggleExtrude()}} active={toggle.b2.active}><Icon active={toggle.b2.active} icon={faCube}/></ToggleButton>
             </ButtonGroup>
 
 
