@@ -43,7 +43,7 @@ export default function NavHeader() {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink active href="../storybook-static/index.html">
+                        <NavLink active href="/storybook-static/index.html">
                             Storybook
                         </NavLink>
                     </NavItem>

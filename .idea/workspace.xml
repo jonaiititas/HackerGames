@@ -1,83 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0674e2a3-986b-4543-8d44-2b80b4143106" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReLineChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/52e1aee0605c952f9040fb319bfc4e4c.ico/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicon_package_v0.16.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/favicons/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/iframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/main.400be3ead5787b1fe872.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/main.400be3ead5787b1fe872.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/main.cec89ecc2288409faf31.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/precache-manifest.7183a482ff4ea8b79387a73476301493.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/runtime~main.400be3ead5787b1fe872.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/runtime~main.400be3ead5787b1fe872.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/runtime~main.adb06a399a2f0ed3150b.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/sb_dll/storybook_ui-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/sb_dll/storybook_ui_dll.LICENCE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/sb_dll/storybook_ui_dll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.400be3ead5787b1fe872.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.400be3ead5787b1fe872.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.c89ec173064e3ef2fcb8.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/addons.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/addons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LineChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LineChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NavHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/0-Welcome.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/1-Button.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/LineChart.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/LineChart.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/MapControl.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MapControl.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.md" beforeDir="false" />
-    </list>
+    <list default="true" id="0674e2a3-986b-4543-8d44-2b80b4143106" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +101,7 @@
       <workItem from="1574435443967" duration="589000" />
       <workItem from="1574518400755" duration="5684000" />
       <workItem from="1574542611364" duration="12808000" />
-      <workItem from="1574595102822" duration="7896000" />
+      <workItem from="1574595102822" duration="8610000" />
     </task>
     <task id="LOCAL-00001" summary="Added 3 layers showing shops in Klapeda (data from OSM).&#10;Added layer control panel (not mobile friendly yet).&#10;Some performance bugs.&#10;Added coding rules.">
       <created>1573573530730</created>
@@ -228,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574556828995</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Stories">
+      <created>1574606550587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574606550588</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +189,7 @@
     <MESSAGE value="Showing some data" />
     <MESSAGE value="Latest version" />
     <MESSAGE value="Added storybook.&#10;New more mobile friendly layer control&#10;Nivo chart component (only in storybook for now)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added storybook.&#10;New more mobile friendly layer control&#10;Nivo chart component (only in storybook for now)" />
+    <MESSAGE value="Stories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stories" />
   </component>
 </project>
