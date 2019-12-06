@@ -27,7 +27,7 @@ Because this is a hackathon, speed and efficiency is top priority and consistent
 - ### <u>Do not leave `ESlint` warnings or else CI/CD pipeline will fail</u>.
 - ### Use `ES6 (ECMA2015)` javascript please.
     - Arrow functions, array and object spreading and destructuring, etc.
-- ### Never ever use `class`.
+- ### Never use `class`.
     - Use only functional componets with Hooks, if you need state.
     - A lot of older tutorials online use classes, you need to rewrite them to function when using here.
 - ### Try to use `styled-components` for styling.
