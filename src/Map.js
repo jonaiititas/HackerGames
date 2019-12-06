@@ -80,7 +80,8 @@ export default function Map() {
         setToggle({...toggleLC, [key]: {...toggleLC[key], active: !toggleLC[key].active}});
     };
 
-        const [open, toggle] = useState(false)
+        const [open, toggle] = useState(false);
+        const [open2, toggle2] = useState(false);
 
 
     const getDistrictsColor = (polygon, heightInstead=false) => {
@@ -138,6 +139,7 @@ export default function Map() {
                 getFillColor: [63, 255, 180, 150],
                 getRadius: 10,
                 getLineWidth: 1,
+                onClick: (info, event) => toggle2(!open2)
             }),
             new GeoJsonLayer({
                 id: 'health-layer',
@@ -225,9 +227,22 @@ export default function Map() {
             {/*<DeckGL {...viewport} layers={[searchResultLayer]}/>*/}
             <MapControl toggle={toggleLC} toggleButton={toggleButton} layers={toggleLayers} handleChange={handleChange} toggleExtrude={toggle3D}/>
             <Modal size="lg" open={open} toggle={() => toggle(!open)}>
-                <ModalHeader>Zona 5</ModalHeader>
+                <ModalHeader>Senamiesčio zona</ModalHeader>
                 <ModalBody style={{overflowY: "scroll"}}>
+                    <p style={{marginBottom: "0px", marginTop: "8px"}}>Vidutinis įmonių atlyginimas</p>
                     <ReLineChart data={maximaDataset} set="avgWage" label="Vidutinis atlyginimas"/>
+                    <p style={{marginBottom: "0px", marginTop: "16px"}}>Vidutinis apdraustųjų skaičius įmonėse</p>
+                    <ReLineChart data={maximaDataset} set="numInsured" label="Apdraustųjų skaičius"/>
+                </ModalBody>
+            </Modal>
+            <Modal size="lg" open={open2} toggle={() => toggle2(!open2)}>
+                <ModalHeader> UAB "Palink"</ModalHeader>
+                <p style={{marginBottom: "8px", marginTop: "8px", fontSize: "20pt"}}>Vidutinis atlyginimas: 1 020,26 €</p>
+                <p style={{marginBottom: "8px", marginTop: "8px", fontSize: "20pt"}}>Darbuotojai: 6623</p>
+                <ModalBody style={{overflowY: "scroll"}}>
+                    <p style={{marginBottom: "0px", marginTop: "8px"}}>Vidutinis atlyginimas</p>
+                    <ReLineChart data={maximaDataset} set="avgWage" label="Vidutinis atlyginimas"/>
+                    <p style={{marginBottom: "0px", marginTop: "16px"}}>Apdraustųjų skaičius</p>
                     <ReLineChart data={maximaDataset} set="numInsured" label="Apdraustųjų skaičius"/>
                 </ModalBody>
             </Modal>
